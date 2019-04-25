@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Alta</class>
+ <widget class="QWidget" name="Alta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Alta</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="LineaDeTexto" name="leLinea2" native="true"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="LineaDeTexto" name="leLinea1" native="true"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="LineaDeTexto" name="leLinea3" native="true"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lLinea1">
+     <property name="text">
+      <string>Linea de Texto 2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="lLinea2">
+     <property name="text">
+      <string>Linea de Texto 1</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lLinea3">
+     <property name="text">
+      <string>Linea de Texto 3</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pbSumar">
+     <property name="text">
+      <string>Sumar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>LineaDeTexto</class>
+   <extends>QWidget</extends>
+   <header>lineadetexto.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

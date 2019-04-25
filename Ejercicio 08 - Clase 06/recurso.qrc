@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/imagen">
+        <file alias="spinner">spinner.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Alta</class>
+ <widget class="QWidget" name="Alta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Alta</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="LineaDeTexto" name="leApellido" native="true"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="LineaDeTexto" name="leNombre" native="true"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lApellido">
+     <property name="text">
+      <string>Apellido</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="pbAlta">
+     <property name="text">
+      <string>Alta</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="lNombre">
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lDni">
+     <property name="text">
+      <string>DNI</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lNombreCompleto">
+     <property name="text">
+      <string>Nombre Completo</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="LineaDeTexto" name="leDni" native="true"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="LineaDeTexto" name="leNombreCompleto" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>LineaDeTexto</class>
+   <extends>QWidget</extends>
+   <header>lineadetexto.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
