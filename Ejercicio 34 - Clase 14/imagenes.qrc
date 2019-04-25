@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Imagen">
+        <file alias="Pared">Pared.jpg</file>
+        <file alias="Piso">Piso.jpg</file>
+        <file alias="Techo">Techo.jpg</file>
+    </qresource>
+</RCC>
